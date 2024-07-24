@@ -6,7 +6,7 @@ int main() {
 	cin>>t;
 	while(t--){
 	    cin>>x>>y>>z;
-	    int total = x * y;
+	    int total = x * y;  //total
 	    if(total <= z){
 	        cout<<"0"<<endl;
 	    }
