@@ -1,0 +1,13 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int t,n;
+    cin>>t;
+    while(t--){
+        cin>>n;
+        int tot =2 *n;    // total water required for n hours.
+        cout<<tot<<endl;
+    }
+    return 0;
+}
